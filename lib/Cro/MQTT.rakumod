@@ -55,7 +55,7 @@ class Cro::MQTT does Cro::Service {
     class Message does Cro::Message {
         has Str     $.topic;
         has Buf     $.message;
-        has Bool()  $.retain;
+        has         $.retain;
     }
 
     class Subscription does Cro::Transform {
