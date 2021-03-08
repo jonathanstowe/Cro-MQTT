@@ -1,0 +1,38 @@
+{
+  "name": "Cro::MQTT",
+  "version": "0.0.1",
+  "auth": "github:jonathanstowe",
+  "description": "Cro service to consume MQTT topics",
+  "api" : "1.0",
+  "raku": "6.*",
+  "perl": "6.*",
+  "meta-version": "1",
+  "source-url": "https://github.com/jonathanstowe/Cro-MQTT.git",
+  "tags": [
+  ],
+  "depends": {
+     "runtime": {
+        "requires": [
+           "Cro::Core",
+           "MQTT::Client"
+        ]
+     }
+  },
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "license": "Artistic-2.0",
+  "provides": {
+     "Cro::MQTT" : "lib/Cro/MQTT.rakumod"
+  },
+  "test-depends": [
+  ],
+  "support": {
+    "source": "https://github.com/jonathanstowe/Cro-MQTT.git",
+    "email": "jns+gh@gellyfish.co.uk"
+  },
+  "resources": [
+  ],
+  "build-depends": [
+  ]
+}
