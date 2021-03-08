@@ -1,0 +1,58 @@
+{
+  "children": [
+    {
+      "name": "META6.json",
+      "type": "file"
+    },
+    {
+      "name": "Changes",
+      "type": "file"
+    },
+    {
+      "name": "t",
+      "purpose": null,
+      "children": [
+        {
+          "type": "file",
+          "name": "010-use.t"
+        },
+        {
+          "type": "file",
+          "name": "020-basic.t"
+        },
+        {
+          "type": "file",
+          "name": "001-meta.t"
+        }
+      ],
+      "type": "directory"
+    },
+    {
+      "type": "file",
+      "name": "mqt"
+    },
+    {
+      "type": "directory",
+      "purpose": null,
+      "children": [
+        {
+          "children": [
+            {
+              "name": "MQTT.rakumod",
+              "type": "file"
+            }
+          ],
+          "name": "Cro",
+          "type": "directory",
+          "purpose": null
+        }
+      ],
+      "name": "lib"
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    }
+  ],
+  "type": "layout"
+}
